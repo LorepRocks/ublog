@@ -1,0 +1,44 @@
+.cardList {
+  display: flex;
+  justify-content: center; /* Change this */
+  flex-wrap: wrap;
+}
+.card-single {
+  margin: 20px 7px 7px 7px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-single:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.art-title {
+  font-size: $font-article-title-size;
+  font-weight: bold
+}
+
+.card-body:hover {
+  background-color: #f3f3f3;
+}
+
+.info {
+  border-bottom: 1px solid rgba(0, 0, 0, .15);
+  font-size: 11px;
+  font-weight: bold;
+  a {
+    float: right;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+.info-icons {
+  color: inherit !important;
+  text-decoration: none !important;
+  margin-right: 11px !important;
+  font-weight: bold;
+}
+.icon-color {
+  color: $card-icons-color;
+}

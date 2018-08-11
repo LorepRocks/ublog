@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import Navigation from './components/navigator';
 import Menu from './components/menu';
 import Card from './components/card';
-import './styles/card_list.css';
+//import './stylesheets/card_list.css';
 import logo from './logo.svg';
-import './styles/menu.css'
-import './App.css';
+import './stylesheets/main.scss'
+//import './App.css';
 
 
 class App extends Component {
